@@ -47,3 +47,13 @@ HOW TO GET .PY FILES IN ANACONDA
 	5.	Go to File → Rename, and rename it to something like: 'train_model.py'
 	6.	Now that it ends in .py, Jupyter will treat it as a Python script with syntax highlighting and all.
 
+
+========================================================================================================================
+
+GIT COMMANDS
+
+git pull origin main                 # Always first
+                                     # then do your work
+git add .
+git commit -m "Meaningful message"
+git push origin main

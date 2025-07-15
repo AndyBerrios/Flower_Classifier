@@ -1,0 +1,11 @@
+Tasks Completed in this project:
+
+Always add the 'HOW?'
+
+1.	Downloaded and connected the Kaggle API to local machine to streamline dataset access using an authenticated token. This allows direct dataset downloads from Kaggle into local projects.
+2.	Created a new GitHub Personal Access Token (PAT) for project-specific authentication. This replaces password-based Git pushes and enhances security.
+3.	Linked GitHub repository to local project folder to enable version control. Used Git commands in the Mac Terminal (git init, add, commit, push) and authenticated using the PAT to successfully push and pull changes.
+4.	Downloaded project dataset using kagglehub, os, and shutil:
+	•	kagglehub: used to download and extract datasets directly from Kaggle (cached locally).
+	•	os.makedirs(): created the data/ directory if it didn’t already exist.
+	•	shutil.copytree(): copied the entire downloaded dataset folder from the cache (temp. storage bucket) location to the project’s data/ folder, allowing for a structured and reusable pipeline.

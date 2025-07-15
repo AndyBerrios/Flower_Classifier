@@ -1,0 +1,7 @@
+Tasks Completed in this project:
+
+Always add the 'HOW?'
+
+1) Downloaded and Connected Kaggle API to Machine to streamline data importation
+2) Created new Personal Access Token for project specific use on github
+3) Synced github with local machine to allow for push, pulls, and merges. Utilized git commands using the Mac Terminal 
