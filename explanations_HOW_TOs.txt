@@ -1,0 +1,49 @@
+WHAT THE PURPOSE OF REQUIREMENTS FOLDER IS FOR
+
+
+The requirements.txt file is a list of all the Python packages your project depends on. It lets anyone (or any server) recreate your project’s environment with all the correct packages and versions.
+
+
+You should run it in your Mac Terminal, inside your project’s Conda environment.
+
+After going into your projects env. run the following: pip install -r requirements.txt
+
+
+After install, feel free to import as needed!
+
+========================================================================================================================
+
+WHAT EACH FOLDER SHOULD HAVE 
+
+
+data/          Holds all dataset files (raw or processed)
+
+
+notebooks/     For exploratory and development notebooks
+              - eda.ipynb (exploratory data analysis)- plant_classifier.ipynb (your model notebook)- Any visualization or prototyping notebooks
+
+
+scripts/        For reusable Python scripts that can be imported across notebooks or run independently
+              - clean_data.py- train_model.py- utils.py- You can also move download_data.py here if you’re done using it in the notebook
+
+
+models/        For saving trained models
+              - plant_rf_model.pkl (or .joblib, .h5, etc.)- Any serialized model files
+ 
+
+outputs/        For generated output: plots, evaluation metrics, prediction results, etc.
+              - confusion_matrix.png- roc_curve.png- classification_report.txt- test_predictions.csv
+
+
+
+========================================================================================================================
+
+HOW TO GET .PY FILES IN ANACONDA
+
+	1.	Click the “New” button (as shown in your screenshot)
+	2.	Choose “Text File” (this shows up as “New File” in your screenshot)
+	3.	It will create a new untitled text file like untitled.txt
+	4.	Click on that file to open it
+	5.	Go to File → Rename, and rename it to something like: 'train_model.py'
+	6.	Now that it ends in .py, Jupyter will treat it as a Python script with syntax highlighting and all.
+
