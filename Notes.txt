@@ -9,4 +9,5 @@ Always add the 'HOW?'
 	•	kagglehub: used to download and extract datasets directly from Kaggle (cached locally).
 	•	os.makedirs(): created the data/ directory if it didn’t already exist.
 	•	shutil.copytree(): copied the entire downloaded dataset folder from the cache (temp. storage bucket) location to the project’s data/ folder, allowing for a structured and reusable pipeline.
-5. 
+5. Checked for missing values
+6. Created histograms using matplotlib and seaborn to view the distribution of our target variable amongst the different features. Revealing 1 stand-out variable. 
