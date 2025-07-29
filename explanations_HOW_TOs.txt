@@ -20,7 +20,7 @@ data/          Holds all dataset files (raw or processed)
 
 
 notebooks/     For exploratory and development notebooks
-              - eda.ipynb (exploratory data analysis)- plant_classifier.ipynb (your model notebook)- Any visualization or prototyping notebooks
+              - eda.ipynb (exploratory data analysis) 
 
 
 scripts/        For reusable Python scripts that can be imported across notebooks or run independently
