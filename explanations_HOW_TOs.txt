@@ -57,3 +57,21 @@ git pull origin main                 # Always first
 git add .
 git commit -m "Meaningful message"
 git push origin main
+
+
+========================================================================================================================
+
+IF YOU CLOSED THE TERMINAL YOU HAVE TO REINITIALIZE GITHUB BY:
+1) traveling to the folder in the directory and making it your pwd
+2) iniitalize git with 'git init'
+
+
+
+
+
+
+
+
+
+
+
